@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat~Box</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <div style="text-align: center;">
+    <h1>Welcome to Oluwapelumi's Group Chat🔥🔥🔥</h1>
+    <button id="signInBtn">SIGN~IN WITH GOOGLE</button>
+    <div id="disp"></div>
+  </div>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
+        import {GoogleAuthProvider, getAuth, signInWithPopup, sendEmailVerification,} from "https://www.gstatic.com/firebasejs/9.17.2/firebase-auth.js";
+        const firebaseConfig = {
+          apiKey: "AIzaSyAn4I0D7w0VgVwy1p7vtu_YY8AuNzf5Fcc",
+          authDomain: "chatbox-b4169.firebaseapp.com",
+          projectId: "chatbox-b4169",
+          storageBucket: "chatbox-b4169.appspot.com",
+          messagingSenderId: "1002294702185",
+          appId: "1:1002294702185:web:0cbf6c863cb8eb6508b2f8"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      const provider = new GoogleAuthProvider();
+      const auth = getAuth();
+      document.getElementById("signInBtn").addEventListener("click", () => {
+        // alert("Hello")
+        signInWithPopup(auth, provider)
+          .then((response) => {
+            console.log(response);
+            disp.innerHTML = `
+            <h1>
+              Welcome, ${response.user.displayName}
+            </h1>
+            <h1>
+              Welcome, ${response.user.email}
+            </h1>
+            <img src='${response.user.photoURL}'/>
+          `;
+            // sendEmailVerification(auth.currentUser).then(() => {
+            //   console.log("successful");
+            // });
+            window.location.href = "dashboard.html"
+          })
+          .catch((error) => {
+            console.log(error);
+          });
+      });
+      </script>
+    
+</body>
+</html>
