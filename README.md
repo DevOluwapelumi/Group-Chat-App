@@ -1,5 +1,5 @@
 # Group-Chat-App
-About I created this group chat app with Firebase Hosting, Google authentication, Storage and real-time database.
+About I created this group chat app with Firebase Hosting, Google authentication, Storage and a real-time database.
 It's a very cool and able chat app.
 
 
@@ -11,7 +11,7 @@ User Registration and Authentication: Users need to create accounts or log in us
 
 Group Creation: Users can create groups centered around specific topics, projects, or interests. Group admins often have the ability to manage group settings and membership.
 
-Real-Time Messaging: The core feature of a group chat app is the ability to send and receive messages in real time. Messages can include text, images, videos, GIFs, emojis, and more.
+Real-Time Messaging: The core feature of a group chat app is the ability to send and receive messages in real-time. Messages can include text, images, videos, GIFs, emojis, and more.
 
 Notifications: Users receive notifications when new messages are sent in a group they're part of. This ensures that important conversations are not missed.
 
