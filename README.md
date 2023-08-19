@@ -9,7 +9,7 @@ Key Features of a Group Chat App:
 
 User Registration and Authentication: Users need to create accounts or log in using their credentials to access the group chat app. User authentication ensures the security and privacy of conversations.
 
-Group Creation: Users can create groups centered around specific topics, projects, or interests. Group admins often have the ability to manage group settings and membership.
+Group Creation: Users can create groups centered around specific topics, projects, or interests. Group admins often can manage group settings and membership.
 
 Real-Time Messaging: The core feature of a group chat app is the ability to send and receive messages in real-time. Messages can include text, images, videos, GIFs, emojis, and more.
 
@@ -37,7 +37,7 @@ Examples of Group Chat Apps:
 
 WhatsApp: A widely-used group chat app that offers messaging, voice, and video calls, as well as multimedia sharing.
 
-Slack: Primarily a team collaboration platform, Slack includes group chat functionality along with integrations and channels for organized discussions.
+Slack: Primarily a team collaboration platform, Slack includes group chat functionality along with Integrations and channels for organized discussions.
 
 Microsoft Teams: Another team collaboration tool that includes group chat, video conferencing, and integration with other Microsoft Office apps.
 
