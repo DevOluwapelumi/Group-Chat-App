@@ -1,4 +1,4 @@
-#Group-Chat-App
+Group-Chat-App
 I created this group chat app with Firebase Hosting, Google authentication, Storage, and a real-time database.
 It's a very cool and able chat app.
 
