@@ -2,7 +2,6 @@ Group-Chat-App
 I created this group chat app with Firebase Hosting, Google authentication, Storage, and a real-time database.
 It's a very cool and able chat app.
 
-
 A Group Chat App is a software application designed to facilitate real-time communication and collaboration among multiple users within a group or a team. It allows users to exchange text messages, multimedia content, and sometimes even voice or video calls in a shared virtual space. Group chat apps are commonly used for both personal and professional communication, enabling people to interact, discuss, and coordinate on various topics.
 
 Key Features of a Group Chat App:
